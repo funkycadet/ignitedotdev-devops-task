@@ -70,7 +70,7 @@ if ! command_exists kind; then
     echo "Installing kind..."
     case $OS in
     Linux)
-        curl -Lo ./kind "https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64"
+        curl -Lo ./kind "https://kind.sigs.k8s.io/dl/v0.22.0/kind-linux-amd64"
         chmod +x ./kind
         sudo mv ./kind /usr/local/bin/kind
         ;;
