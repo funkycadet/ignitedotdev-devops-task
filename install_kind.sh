@@ -97,6 +97,6 @@ else
 fi
 
 # Create a kind cluster
-kind create cluster --name ignitedotdev-cluster --config config.yml
+kind create cluster --name ignitedotdev-cluster --config config.yaml
 
 echo "Kind cluster has been created successfully."
